@@ -12,7 +12,7 @@ const Slides = () => {
                 </div>
                 <div className='flex justify-center'>
                     <ul className='flex gap-[0.5rem] [&>li:first-child]:mr-[0.5rem] [&>li]:cursor-pointer'>
-                        <li className='w-[1.31rem] h-[0.50rem] rounded-full bg-[#4762FF] opacity-74'></li>
+                        <li className='w-[1.31rem] h-[0.50rem] rounded-full bg-[#4762FF]'></li>
                         <li className='size-[0.5rem] rounded-full bg-[#4762FF] opacity-74'></li>
                         <li className='size-[0.5rem] rounded-full bg-[#4762FF] opacity-74'></li>
                         <li className='size-[0.5rem] rounded-full bg-[#4762FF] opacity-74'></li>
