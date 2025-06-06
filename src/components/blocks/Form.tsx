@@ -4,7 +4,7 @@ import Input from '../atoms/Input';
 
 const Form = () => {
     return (
-        <section className="h-[42.94rem] relative">
+        <section className="h-[42.94rem] relative overflow-hidden">
             <div>
                 <img src={formBg} alt="formBg" width={'100%'} />
             </div>
