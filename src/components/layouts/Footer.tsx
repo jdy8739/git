@@ -1,4 +1,8 @@
 import logo from '../../../public/images/footer-logo.png'
+import FacebookIcon from '../../../public/svgs/Facebook.svg'
+import InstagramIcon from '../../../public/svgs/Instagram.svg'
+import PhoneWhiteIcon from '../../../public/svgs/phone-white.svg'
+import PinDropWhiteIcon from '../../../public/svgs/pin-drop-white.svg'
 
 const Footer = () => {
     return (
@@ -24,15 +28,27 @@ const Footer = () => {
                         <li>+7 (708) 802 88 88</li>
                         <li>+7 (708) 51 51 518</li>
                         <li className="mb-[0.5rem]">+7 (708) 51 51 518</li>
-                        <li className="mb-[0.5rem]">+7 (708) 802 88 88</li>
-                        <li>г. Бишкек, ул. Ляляля 69</li>
+                        <li className="mb-[0.5rem] flex gap-[0.5rem]">
+                            <img src={PhoneWhiteIcon} alt="Phone" />
+                            +7 (708) 802 88 88
+                        </li>
+                        <li className='flex gap-[0.5rem]'>
+                            <img src={PinDropWhiteIcon} alt="Pin" />
+                            г. Бишкек, ул. Ляляля 69
+                        </li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-[1rem]">
                     <h4 className="text-[1.25rem] font-medium">Следите за нами</h4>
                     <ul className="flex flex-col gap-[0.5rem]">
-                        <li>truck_service_ofFicIaL</li>
-                        <li>truck_service_ofFicIaL</li>
+                        <li className='flex gap-[0.5rem]'>
+                            <img src={FacebookIcon} alt="Facebook" />
+                            truck_service_ofFicIaL
+                        </li>
+                        <li className='flex gap-[0.5rem]'>
+                            <img src={InstagramIcon} alt="Instagram" />
+                            truck_service_ofFicIaL
+                        </li>
                     </ul>
                 </div>
             </div>
